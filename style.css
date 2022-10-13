@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+h1 {
+    font-family: Big Shoulders Display, sans-serif;
+    font-size: 20pt;
+    color: hsl(0, 0%, 95%);
+}
+p {
+    font-family: Lexend Deca, sans-serif;
+    font-size: 12pt;
+    color: hsl(0, 0%, 100%, 0.75)
+}
+table {
+    padding: 10%;
+    height: 100%;
+}
+.btn-orange {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border-radius: 50px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    padding: 5% 10%;
+    font-family: Lexend Deca, sans-serif;
+}
+.btn-orange:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    padding: 5% 10%;
+    font-family: Lexend Deca, sans-serif;
+}
+.btn-cyan {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border-radius: 50px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    padding: 5% 10%;
+    font-family: Lexend Deca, sans-serif;
+}
+.btn-cyan:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    padding: 5% 10%;
+    font-family: Lexend Deca, sans-serif;
+}
+.btn-d-cyan {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border-radius: 50px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    padding: 5% 10%;
+    font-family: Lexend Deca, sans-serif;
+}
+.btn-d-cyan:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    padding: 5% 10%;
+    font-family: Lexend Deca, sans-serif;
+}
+.container-orange {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+.container-cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+.container-d-cyan {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px  0;
+}
+.float-left {
+    float: left;
+}
+.center {
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
