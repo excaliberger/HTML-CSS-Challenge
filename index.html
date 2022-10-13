@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice with Forms</title>
+    <style>
+        @font-face {
+            font-family: "Lexend Deca";
+            src: url(https://fonts.google.com/specimen/Lexend+Deca);
+        }
+        @font-face {
+            font-family: "Big Shoulders Display";
+            src: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+        }
+
+        h1 {
+            font-family: Big Shoulders Display, sans-serif;
+            font-size: 20pt;
+            color: hsl(0, 0%, 95%);
+        }
+        p {
+            font-family: Lexend Deca, sans-serif;
+            font-size: 15pt;
+            color: hsla(0, 0%, 100%, 0.75)
+        }
+        table {
+            padding: 10%;
+        }
+        button {
+            background-color: hsl(0, 0%, 95%);
+            border-radius: 50px;
+            border-style: none;
+            padding: 5% 10%;
+            margin: 5%;
+        }
+        button:hover {
+            background-color: hsl(0, 0%, 95%);
+            fill-opacity: 0;
+            border-radius: 50px;
+            border-style: solid;
+            border-color: hsl(0, 0%, 95%);
+            padding: 5% 10%;
+            margin: 5%;
+        }
+        .container-orange {
+            background-color: hsl(31, 77%, 52%);
+        }
+        .container-cyan {
+            background-color: hsl(184, 100%, 22%);
+        }
+        .container-d-cyan {
+            background-color: hsl(179, 100%, 13%);
+        }
+        .float-left {
+            float: left;
+        }
+        .center {
+            margin: 0 auto;
+            align-content: center;
+            justify-content: center;
+            display: flex;
+        }
+    </style>
+</head>
+  <body class="center">
+    <div class="float-left">
+        <table class="container-orange">
+            <tr>
+                <td>
+                    <img src="3-column-preview-card-component-main/images/icon-sedans.svg" alt="Sedans">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>Insert title here</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Insert description here</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>Learn More</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="float-left">
+        <table class="container-cyan">
+            <tr>
+                <td>
+                    <img src="3-column-preview-card-component-main/images/icon-suvs.svg" alt="SUVs">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>Insert title here</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Insert description here</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="float-left">
+        <table class="container-d-cyan">
+            <tr>
+                <td>
+                    <img src="3-column-preview-card-component-main/images/icon-luxury.svg" alt="luxury">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>Insert title here</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Insert description here</p>
+                </td>
+            </tr>
+        </table>
+    </div> 
+  </body>
+</html>
