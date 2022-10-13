@@ -72,20 +72,41 @@ table {
 .container-orange {
     background-color: hsl(31, 77%, 52%);
     border-radius: 10px 0 0 10px;
+    width: 300px;
 }
 .container-cyan {
     background-color: hsl(184, 100%, 22%);
+    width: 300px;
 }
 .container-d-cyan {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 10px 10px  0;
-}
-.float-left {
-    float: left;
+    width: 300px;
 }
 .center {
     margin: 0 auto;
     align-content: center;
     justify-content: center;
     display: flex;
+    vertical-align: middle;
+}
+
+@media (max-width: 450px) {
+    .center {
+        display: flex;
+        vertical-align: middle;
+        flex-direction: column;
+    }
+    .container-orange {
+        border-radius: 10px 10px 0 0 ;
+        width: 300px;
+    }
+    .container-cyan {
+        width: 300px;
+    }
+    .container-d-cyan {
+        border-radius: 0 0 10px 10px;
+        width: 300px;
+    }
+    
 }
